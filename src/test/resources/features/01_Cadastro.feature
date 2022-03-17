@@ -1,7 +1,7 @@
 #language: pt
 #autor: Kethilyn Leal
 
-@nExecuta
+@Executa
 Funcionalidade: Cadastro de Usuario
   Eu como usuario quero me cadastrar no site
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="executa.ExecutarIT" time="19.162" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="executa.ExecutarIT" time="41.254" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,14 +15,14 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Netbiis\AppData\Local\Temp\surefire12026034097914550886 2022-03-16T21-23-35_954-jvmRun1 surefire13952552981052029795tmp surefire_013981225844487670196tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Netbiis\AppData\Local\Temp\surefire13802163007210534847 2022-03-17T10-21-41_734-jvmRun1 surefire6614085913911775498tmp surefire_010687822754403992014tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Netbiis\Documents\GitHub\ziliongames\target\test-classes;C:\Users\Netbiis\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\maven-compiler-plugin-3.10.0.jar;C:\Users\Netbiis\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\Netbiis\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Netbiis\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Netbiis\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.10.0\plexus-compiler-api-2.10.0.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.10.0\plexus-compiler-manager-2.10.0.jar;C:\Users\Netbiis\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.10.0\plexus-compiler-javac-2.10.0.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\Netbiis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Netbiis\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Netbiis\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Netbiis\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\Netbiis\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Netbiis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Netbiis\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Netbiis\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\Netbiis\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\Netbiis\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\Netbiis\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Netbiis\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\Netbiis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Netbiis\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Netbiis\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Netbiis\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Netbiis\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Netbiis\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Netbiis\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\Netbiis\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\Netbiis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\Netbiis\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Netbiis\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Netbiis\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\Netbiis\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Netbiis\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Netbiis\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Netbiis\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Netbiis\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Netbiis\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Netbiis\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Netbiis"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="jdk.module.path" value="C:\Users\Netbiis\Documents\GitHub\ziliongames\target\kethilyn-1.0-SNAPSHOT.jar"/>
+    <property name="jdk.module.path" value="C:\Users\Netbiis\Documents\GitHub\ziliongames\target\zilion-1.0-SNAPSHOT.jar"/>
     <property name="java.version.date" value="2022-01-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
     <property name="file.separator" value="\"/>
@@ -52,14 +52,43 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk-17.0.2\bin;C:\maven\bin;C:\Users\Netbiis\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\Netbiis\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\maven\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;%JAVA_HOME%\bin;%MAVEN_HOME%\bin;C:\Users\Netbiis\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\Netbiis\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\maven\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Logar com o usuario&quot;, &quot;Optional[Login de cadastro]&quot;](1)" classname="executa.ExecutarIT" time="18.421">
+  <testcase name="runScenario[&quot;Cadastrar um usuario&quot;, &quot;Optional[Cadastro de Usuario]&quot;](1)" classname="executa.ExecutarIT" time="21.508">
+    <system-out><![CDATA[
+@Executa
+Cenario: Cadastrar um usuario                                 # src/test/resources/features/01_Cadastro.feature:8
+  Dado que eu acesse o site "https://www.ziliongames.com.br/" # testes.Steps.que_eu_acesse_o_site(java.lang.String)
+  Quando clico em cadastro                                    # testes.Steps.clico_em_cadastro()
+  E insiro dados para cadastro                                # testes.Steps.insiro_dados_para_cadastro()
+  Entao finalizo o teste                                      # testes.Steps.finalizo_o_teste()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1647523304363	geckodriver	INFO	Listening on 127.0.0.1:61086
+1647523304606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54302" "-no-remote" "-profile" "C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofilewBpNfa"
+1647523304936	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofilewBpNfa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54302/devtools/browser/aa4c9e20-d61f-4ddb-81cf-ac5f57c9cf15
+1647523308374	Marionette	INFO	Listening on port 59717
+1647523308797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+mar. 17, 2022 10:21:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ziliongames.com.br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ziliongames.com.br"
+JavaScript error: resource://gre/modules/LoginMaconnasgoelre.Pwaraerntn:.j sLmo,g ilniRneec i1p3e6s::  T"ygpeetErRrecori:pe sg:R feaclilpienMga nbaagcekr  itos  anu lslync
+hrJoanvoauSsc rmipests aegrer ofro:r :"re s"ohuttrpces::////wgrwew/.zmioldiuolnes/gLaogmiens.Macnom.abgre"r
+Parent.jsm, line 136: TypeError: gRecipeManager is null
+1647523323169	Marionette	INFO	Stopped listening on port 59717
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logar com o usuario&quot;, &quot;Optional[Login de cadastro]&quot;](2)" classname="executa.ExecutarIT" time="18.87">
     <system-out><![CDATA[
 @Executa
 Cenario: Logar com o usuario                                  # src/test/resources/features/02_Login.feature:8
@@ -68,36 +97,34 @@ Cenario: Logar com o usuario                                  # src/test/resourc
   E dados para login                                          # testes.Steps.dados_para_login()
   Entao finalizo o teste                                      # testes.Steps.finalizo_o_teste()
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1647476618395	geckodriver	INFO	Listening on 127.0.0.1:59448
-1647476618610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53381" "-no-remote" "-profile" "C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofileP4Ake9"
-1647476618930	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofileP4Ake9\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53381/devtools/browser/2f34a00e-38e9-4753-857a-caaaa26539cf
-1647476622252	Marionette	INFO	Listening on port 56932
-1647476622683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-mar. 16, 2022 9:23:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1647523325264	geckodriver	INFO	Listening on 127.0.0.1:56280
+1647523325287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52269" "-no-remote" "-profile" "C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofilenYA1cT"
+1647523325587	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Netbiis\\AppData\\Local\\Temp\\rust_mozprofilenYA1cT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52269/devtools/browser/a26d2222-4a3f-410c-b02b-1e5e9a37bdb2
+1647523329260	Marionette	INFO	Listening on port 59843
+1647523329550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+mar. 17, 2022 10:22:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ziliongames.com.br"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ziliongames.com.br"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message foJra:v"a S"chtrtippst: /e/rwwrw.ozri:li ornegasmoeus.rccoem.:/b/r"gr
-e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManagerc ionss noullel.w
-arn: LoginRecipes: "getRecipes: faJlalviaSncgr ibpactk  etror ao rs: yrenscohurrocen:ous mes/s/agger foer:/" m"ohdtutplse:s///Lwowgwi.nzMialnaigoenrgPaamreesn.tc.ojms.mb,r "li
-ne 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: J"agveatRSeccripiesp:t f aelrlrionrg:  barceks otuor cae :s/y/ngcrher/omnooduusl emse/Lsosgaigen Mfaonr:a"g e"rhtPtarpesnt:./j/swmw,w .lziilnieo n1g3a6m:e sT.ycpoemE.brrr"o
-r: gcRoencsolie.wpaerMna:n aLgoegri niRse cniuples: "lget
-ReJcaivapSecs:r ifpatll eirnrgo rb:a ckr toe sao usryncceh:r/o/ngoruse /mmeosdsuaglee fsor/:L"o "ghitntpMsa:n//awgwewr.Pazrielnito.njgsamme,s .cloimn.eb r1"36
-: TypeError: gRecipeManager is null
-1647476633614	Marionette	INFO	Stopped listening on port 56932
-
-###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
-
+console.warn: LoginRecipesJa: v"agScertiRpetc iepersror: res:o ufrallcei:n/g/ gbraec/km otduol eas /sLynocghirnoMnanoaugser Pmaesrsenagt.ej fsomr,: "l i"nhet t1p3s6::/ T/ywpwewE.zrriolri:o nggRameceisp.ecMoamn.abgre"r
+ is null
+console.warn: LoginRecipeJsa:v a"SgceritptR eecrriopre:s r:e sofuarcle:l//girne/gmo dubleasc/kL otgoi naM ansaygnercPharreonnto.juss mm,e slsiange e1 36f: oTry:p"eE r"hrtotrp: sg:R/e/cwiwpwe.Mzainlaigoenrg aimess .ncuolml.
+br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronoJuasv amSecsrsiapgte  efrorro:r":  r"ehsttpos:/u/rwcwew:./zi/lgiroen/gammodeusl.ecso/Lmo.gibnrMa"na
+gerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ziliJoanvgaameSsc.rciopmt. berr"r
+or: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647523342004	Marionette	INFO	Stopped listening on port 59843
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 17580, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 ]]></system-err>
   </testcase>
 </testsuite>

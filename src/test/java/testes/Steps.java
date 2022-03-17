@@ -32,7 +32,7 @@ public class Steps {
         metodos.pausa(1000,"espero_um_segundo");
         metodos.printScreen("02_tela_cadastro");
         metodos.escrever(el.getNome(),"Projeto teste", "insiro_o_nome");
-        metodos.escrever(el.getEmail(),"hejon3928234@tourcc.com","insiro_o_email");
+        metodos.escrever(el.getEmail(),"beyix59701@songsign.com","insiro_o_email");
         metodos.escrever(el.getDataNascimento(),"01021991","insiro_data_de_nascimento");
         metodos.escrever(el.getCep(),"08340_010","insiro_o_cpf");
         metodos.esperarClicavel(el.getEndereco(),"espero_elemento_ficar_clicavel");
@@ -43,7 +43,7 @@ public class Steps {
         metodos.clicar(el.getCidade(),"clico_en_cidade");
         metodos.clicar(el.getEstado(),"clico_em_estado");
         metodos.esperarClicavel(el.getCpf(),"espero_elemento_ficar_clicavel");
-        metodos.escrever(el.getCpf(),"381_124_132_07","insiro_o_cpf");
+        metodos.escrever(el.getCpf(),"337_371_813_90","insiro_o_cpf");
         metodos.escrever(el.getTelefone(),"11_95364_2146","insiro_numero_de_telefone_com_ddd");
         metodos.escrever(el.getSenha(),"Mudar@321","insiro_a_senha");
         metodos.escrever(el.getConfirmarSenha(),"Mudar@321","confirmo_a_senha");
@@ -66,7 +66,7 @@ public class Steps {
         metodos.clicar(el.getLogin(),"clico_em_login");
         metodos.pausa(1000,"espero_um_segundos");
         metodos.printScreen("04_tela_de_login");
-        metodos.escrever(el.getEmailLogin(),"hejon3928234@tourcc.com","insiro_email_de_login");
+        metodos.escrever(el.getEmailLogin(),"beyix59701@songsign.com","insiro_email_de_login");
         metodos.esperarClicavel(el.getSenhaLogin(),"espero_elemento_ficar_clicavel");
         metodos.escrever(el.getSenhaLogin(),"Mudar321","insiro_senha_de_login");
         metodos.clicar(el.getEntrar(),"clico_em_entrar");

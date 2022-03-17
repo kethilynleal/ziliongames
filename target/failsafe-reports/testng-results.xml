@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T21:23:37 BRT" name="Surefire suite" finished-at="2022-03-16T21:23:56 BRT" duration-ms="18838">
+  <suite started-at="2022-03-17T10:21:43 BRT" name="Surefire suite" finished-at="2022-03-17T10:22:24 BRT" duration-ms="40856">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executa.ExecutarIT@7e7be63f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executa.ExecutarIT@2f217633]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-03-16T21:23:37 BRT" name="Surefire test" finished-at="2022-03-16T21:23:56 BRT" duration-ms="18838">
+    <test started-at="2022-03-17T10:21:43 BRT" name="Surefire test" finished-at="2022-03-17T10:22:24 BRT" duration-ms="40856">
       <class name="executa.ExecutarIT">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executa.ExecutarIT@7e7be63f]" started-at="2022-03-16T21:23:37 BRT" name="setUpClass" finished-at="2022-03-16T21:23:37 BRT" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executa.ExecutarIT@2f217633]" started-at="2022-03-17T10:21:43 BRT" name="setUpClass" finished-at="2022-03-17T10:21:43 BRT" duration-ms="403" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2121d1f9]]>
+                <![CDATA[org.testng.TestRunner@30c3ae63]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executa.ExecutarIT@7e7be63f]" started-at="2022-03-16T21:23:37 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T21:23:56 BRT" duration-ms="18419" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executa.ExecutarIT@2f217633]" started-at="2022-03-17T10:21:43 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T10:22:05 BRT" duration-ms="21503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cadastrar um usuario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Cadastro de Usuario]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executa.ExecutarIT@2f217633]" started-at="2022-03-17T10:22:05 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T10:22:24 BRT" duration-ms="18874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executa.ExecutarIT@7e7be63f]" started-at="2022-03-16T21:23:56 BRT" name="tearDownClass" finished-at="2022-03-16T21:23:56 BRT" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executa.ExecutarIT@2f217633]" started-at="2022-03-17T10:22:24 BRT" name="tearDownClass" finished-at="2022-03-17T10:22:24 BRT" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
